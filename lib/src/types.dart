@@ -60,7 +60,7 @@ enum InquiryVerificationType {
   /// If the individual is asked to submit a government ID such as a driver license,
   /// national ID, or passport, Persona will inspect the ID for authenticity and extract
   /// the relevant information from it for additional consumption.
-  governmentId,
+  government_id,
 
   /// If the individual is asked to provide a phone number in the inquiry flow, Persona will
   /// send a confirmation PIN code to that phone number and then check the number against public
